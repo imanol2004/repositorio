@@ -1,0 +1,31 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: arial; 
+}
+.contenedor{
+	max-width: 1000px;
+	width: 90%;
+	background-color:#00c6ff;
+	margin: auto;
+	display: flex;
+}
+.menu{
+	display: flex;
+	flex-grow: 1;
+
+}
+
+.menu a{
+	width: 25%;
+	background-color: tomato;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	margin: 10px;
+	padding: 10px;
+	flex-grow: 1;
+}
+.menu a:hover{
+	background-color: #ccc;
+}
